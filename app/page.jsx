@@ -26,10 +26,10 @@ export default function Page() {
         <div className="orb orb1" />
         <div className="orb orb2" />
         <p className="badge">Creative Growth Agency</p>
-        <h1>Content that makes brands impossible to ignore.</h1>
+        <h1>We create content people remember.</h1>
         <p className="lead">
           EverFrame helps creators and businesses grow through premium editing,
-          storytelling, thumbnails, and content strategy.
+          thumbnails, and content strategy.
         </p>
         <div className="heroBtns">
           <a href="#contact" className="btn white">Start a project <ArrowRight size={18}/></a>
