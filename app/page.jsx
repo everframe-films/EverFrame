@@ -68,7 +68,30 @@ export default function Page() {
           ))}
         </div>
       </section>
+<section id="pricing" className="section">
+  <p className="badge">Pricing</p>
+  <h2>Simple packages to start growing.</h2>
 
+  <div className="serviceGrid">
+    <div className="card">
+      <h3>Starter</h3>
+      <p>₹999+</p>
+      <p>1 short reel/edit, basic captions, clean cuts, and delivery-ready export.</p>
+    </div>
+
+    <div className="card">
+      <h3>Growth</h3>
+      <p>₹1,999+</p>
+      <p>Premium reel/edit with better pacing, sound design, captions, and creative direction.</p>
+    </div>
+
+    <div className="card">
+      <h3>Custom</h3>
+      <p>Contact Us</p>
+      <p>For YouTube videos, wedding films, brand ads, thumbnails, and monthly content plans.</p>
+    </div>
+  </div>
+</section>
       <section className="statement">
         <MousePointer2 />
         <h2>People don't buy editing. They buy results.</h2>
