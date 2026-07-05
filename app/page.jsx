@@ -75,7 +75,7 @@ export default function Page() {
   <div className="serviceGrid">
     <div className="card">
       <h3>Starter</h3>
-      <p>₹799</p>
+      <p>₹799+</p>
       <p>1 short reel/edit, basic captions, clean cuts, and delivery-ready export.</p>
     </div>
 
