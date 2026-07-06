@@ -6,7 +6,7 @@ const services = [
   { icon: Target, title: "Brand Growth", text: "Creative ideas and content strategy that help businesses get attention and customers." },
 ];
 
-const work = ["Football/Tiktok style Edits", "Podcast Edits", "Gaming Edit", "Clothing Brand Promo Edits"];
+const work = ["Football/Tiktok style Edits", "Podcast Edits", "Gaming Edit", "Clothing Brand Promo Edits (Coming Soon)"];
 
 export default function Page() {
   return (
