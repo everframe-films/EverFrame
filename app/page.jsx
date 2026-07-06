@@ -86,13 +86,13 @@ export default function Page() {
     width:
   item.title === "Football / TikTok Style Edits" ||
   item.title === "Gaming Edit"
-    ? "250px"
+    ? "270px"
     : "100%",
 
 height:
   item.title === "Football / TikTok Style Edits" ||
   item.title === "Gaming Edit"
-    ? "250px"
+    ? "270px"
     : "140px",
     objectFit: "cover",
   borderRadius: "18px",
