@@ -135,8 +135,8 @@ export default function Page() {
         <h2>Let's create something people remember.</h2>
         <p className="lead">DM us for a free sample or project discussion.</p>
         <div className="contactBox">
-          <p><b>Instagram:</b> @everframe</p>
-          <p><b>Email:</b> everframe@example.com</p>
+          <p><b>Instagram:</b> @everframe.films</p>
+          <p><b>Email:</b> everframefilms@gmail.com</p>
           <p><b>Services:</b> Reels/Tiktok Edits · Videos · Thumbnails · Brand Promo Growth</p>
         </div>ms
       </section>
