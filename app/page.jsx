@@ -9,11 +9,9 @@ const services = [
 const work = [
   {
     title: "Football / TikTok Style Edits",
-    video: null,
   },
   {
     title: "Podcast Edits",
-    video: null,
   },
   {
     title: "Gaming Edit",
@@ -21,8 +19,8 @@ const work = [
   },
   {
     title: "Clothing Brand Promo Edits (Coming Soon)",
-    video: null,
   },
+];
 
 export default function Page() {
   return (
