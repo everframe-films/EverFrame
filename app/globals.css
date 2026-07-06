@@ -16,10 +16,4 @@
   height: 140px;
   object-fit: cover;
   border-radius: 18px;
-}}.workCard {
-  min-height: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  ...
-}
+}}

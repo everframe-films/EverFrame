@@ -79,16 +79,15 @@ export default function Page() {
           {work.map((item, i) => (
   <div className="workCard" key={item.title}>
     {item.video && (
-  <video
-  className={
-    item.title === "Football / TikTok Style Edits"
-      ? "workVideoVertical"
-      : "workVideo"
-  }
+ <video
   src={item.video}
   controls
-/>
-/>
+  style={{
+    width: item.title === "Football / TikTok Style Edits" ? "220px" : "100%",
+    height: item.title === "Football / TikTok Style Edits" ? "320px" : "140px",
+    objectFit: "cover",
+    borderRadius: "18px",
+  }}
   />
 )}
 
