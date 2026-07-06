@@ -84,7 +84,7 @@ export default function Page() {
   controls
   style={{
     width: item.title === "Football / TikTok Style Edits" ? "300px" : "100%",
-    height: item.title === "Football / TikTok Style Edits" ? "200px" : "140px",
+    height: item.title === "Football / TikTok Style Edits" ? "350px" : "140px",
     objectFit: "cover",
     borderRadius: "18px",
   }}
