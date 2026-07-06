@@ -95,7 +95,9 @@ height:
     ? "250px"
     : "140px",
     objectFit: "cover",
-    borderRadius: "18px",
+  borderRadius: "18px",
+  display: "block",
+  margin: "0 auto 20px",
   }}
   />
 )}
