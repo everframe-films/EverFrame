@@ -76,19 +76,16 @@ export default function Page() {
         <h2>Demo work, ready to replace with your samples.</h2>
         <div className="workGrid">
           {work.map((item, i) => (
-            <div className="workCard" key={item.title}>
-  {item.video && (
-  <video
-    className="workVideo"
-    src={item.video}
-    controls
-  />
-)}
-  <div className="num">0{i + 1}</div>
-  <h3>{item.title}</h3>
-  <p>Watch sample by EverFrame</p>
-</div>
-          ))}
+  <div className="workCard" key={item.title}>
+    {item.video ? (
+      <video className="workVideo" src={item.video} controls />
+    ) : null}
+
+    <div className="num">0{i + 1}</div>
+    <h3>{item.title}</h3>
+    <p>{item.video ? "Watch sample by EverFrame" : "Coming soon"}</p>
+  </div>
+))}
         </div>
       </section>
 <section id="pricing" className="section">
