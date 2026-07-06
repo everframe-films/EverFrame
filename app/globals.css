@@ -4,4 +4,16 @@
   object-fit: cover;
   border-radius: 18px;
   margin-bottom: 20px;
+}.workVideo {.workVideo {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
 }
+
+.workVideoVertical {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 18px;
+}}
