@@ -12,7 +12,7 @@ const work = [
     video: "/videos/football.mp4",
   },
   {
-    title: "Podcast Edits",
+    title: "Business Promo Edit",
     video: null,
   },
   {
