@@ -9,16 +9,19 @@ const services = [
 const work = [
   {
     title: "Football / TikTok Style Edits",
+    video: "/videos/football.mp4",
   },
   {
     title: "Podcast Edits",
+    video: "/videos/podcast.mp4",
   },
   {
     title: "Gaming Edit",
     video: "/videos/gaming.mp4",
   },
   {
-    title: "Clothing Brand Promo Edits (Coming Soon)",
+    title: "Clothing Brand Promo",
+    video: "/videos/clothing.mp4",
   },
 ];
 
@@ -75,10 +78,10 @@ export default function Page() {
         <div className="workGrid">
           {work.map((item, i) => (
   <div className="workCard" key={item.title}>
-    {item.title === "Gaming Edit" && (
+    {item.video && (
   <video
     className="workVideo"
-    src="/videos/gaming.mp4"
+    src={item.video}
     controls
   />
 )}
