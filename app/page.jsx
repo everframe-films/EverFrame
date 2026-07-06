@@ -8,21 +8,20 @@ const services = [
 
 const work = [
   {
+    title: "Football / TikTok Style Edits",
+    video: "/videos/football.mp4",
+  },
+  {
+    title: "Podcast Edits",
+    video: null,
+  },
+  {
     title: "Gaming Edit",
-    desc: "Fast-paced gaming montage edits.",
     video: "/videos/gaming.mp4",
   },
   {
-    title: "TikTok Edits",
-    desc: "Short-form viral style edits.",
-  },
-  {
-    title: "Thumbnails",
-    desc: "Clean eye-catching thumbnails.",
-  },
-  {
-    title: "Wedding Films",
-    desc: "Cinematic wedding videos.",
+    title: "Clothing Brand Promo",
+    video: null,
   },
 ];
 
