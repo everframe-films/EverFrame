@@ -6,7 +6,23 @@ const services = [
   { icon: Target, title: "Brand Growth", text: "Creative ideas and content strategy that help businesses get attention and customers." },
 ];
 
-const work = ["Football/Tiktok style Edits", "Podcast Edits", "Gaming Edit", "Clothing Brand Promo Edits (Coming Soon)"];
+const work = [
+  {
+    title: "Football / TikTok Style Edits",
+    video: null,
+  },
+  {
+    title: "Podcast Edits",
+    video: null,
+  },
+  {
+    title: "Gaming Edit",
+    video: "/videos/gaming.mp4",
+  },
+  {
+    title: "Clothing Brand Promo Edits (Coming Soon)",
+    video: null,
+  },
 
 export default function Page() {
   return (
@@ -60,14 +76,16 @@ export default function Page() {
         <h2>Demo work, ready to replace with your samples.</h2>
         <div className="workGrid">
           {work.map((item, i) => (
-            <div className="workCard" key={item}>
+            <div className="workCard" key={item.title}>
+  {item.video && (
   <video
     className="workVideo"
-    src="/videos/gaming.mp4"
+    src={item.video}
     controls
   />
+)}
   <div className="num">0{i + 1}</div>
-  <h3>{item}</h3>
+  <h3>{item.title}</h3>
   <p>Watch sample by EverFrame</p>
 </div>
           ))}
