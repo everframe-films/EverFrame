@@ -80,14 +80,13 @@ export default function Page() {
   <div className="workCard" key={item.title}>
     {item.video && (
   <video
-  className={
-    item.title === "Football / TikTok Style Edits"
-      ? "workVideoVertical"
-      : "workVideo"
-  }
-  src={item.video}
-  controls
-/>
+    className={
+      item.title === "Football / TikTok Style Edits"
+        ? "workVideoVertical"
+        : "workVideo"
+    }
+    src={item.video}
+    controls
   />
 )}
 
