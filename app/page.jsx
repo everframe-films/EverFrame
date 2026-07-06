@@ -61,10 +61,15 @@ export default function Page() {
         <div className="workGrid">
           {work.map((item, i) => (
             <div className="workCard" key={item}>
-              <div className="num">0{i+1}</div>
-              <h3>{item}</h3>
-              <p>Concept sample by EverFrame</p>
-            </div>
+  <video
+    className="workVideo"
+    src="/videos/gaming.mp4"
+    controls
+  />
+  <div className="num">0{i + 1}</div>
+  <h3>{item}</h3>
+  <p>Watch sample by EverFrame</p>
+</div>
           ))}
         </div>
       </section>
