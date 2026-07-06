@@ -105,8 +105,8 @@ export default function Page() {
         <div className="contactBox">
           <p><b>Instagram:</b> @everframe</p>
           <p><b>Email:</b> everframe@example.com</p>
-          <p><b>Services:</b> Reels · Videos · Thumbnails · Wedding Films · Brand Content</p>
-        </div>
+          <p><b>Services:</b> Reels/Tiktok Edits · Videos · Thumbnails · Brand Promo Growth</p>
+        </div>ms
       </section>
     </main>
   );
