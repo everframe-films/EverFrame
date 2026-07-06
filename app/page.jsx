@@ -77,10 +77,10 @@ export default function Page() {
         <div className="workGrid">
           {work.map((item, i) => (
   <div className="workCard" key={item.title}>
-    {item.video && (
+    {item.title === "Gaming Edit" && (
   <video
     className="workVideo"
-    src={item.video}
+    src="/videos/gaming.mp4"
     controls
   />
 )}
