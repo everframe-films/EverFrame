@@ -91,7 +91,7 @@ export default function Page() {
 width:
   item.title === "Business Promo Edit"
     ? "260px"
-    : "100%",
+    : "140%",
 height:
   item.title === "Business Promo Edit"
     ? "260px"
