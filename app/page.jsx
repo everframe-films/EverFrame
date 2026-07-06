@@ -13,7 +13,7 @@ const work = [
   },
   {
     title: "Business Promo Edit",
-    video: "/videos/businesspromo.mp4",
+    video: "/videos/business.mp4",
   },
   {
     title: "Gaming Edit",
