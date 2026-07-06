@@ -82,7 +82,7 @@ export default function Page() {
     <div className="card">
       <h3>Growth</h3>
       <p>₹1,999+</p>
-      <p>Premium reel/edit with better pacing, sound design, captions, and creative direction.</p>
+      <p>Premium reel/edit with better pacing, captions, and creative direction.</p>
     </div>
 
     <div className="card">
