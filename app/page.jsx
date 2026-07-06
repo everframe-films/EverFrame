@@ -77,21 +77,19 @@ export default function Page() {
         <div className="workGrid">
           {work.map((item, i) => (
   <div className="workCard" key={item.title}>
-    {item.title === "Gaming Edit" && (
+    {item.video && (
   <video
     className="workVideo"
-    src="/videos/gaming.mp4"
+    src={item.video}
     controls
   />
 )}
 
     <div className="num">0{i + 1}</div>
     <h3>{item.title}</h3>
-    <p>
-  {item.title === "Gaming Edit"
-    ? "Watch sample by EverFrame"
-    : "Coming soon"}
-</p>
+ {item.video
+  ? "Watch sample by EverFrame"
+  : "Coming soon"}
   </div>
 ))}
         </div>
