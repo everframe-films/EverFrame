@@ -87,11 +87,11 @@ export default function Page() {
   item.title === "Football / TikTok Style Edits" ||
   item.title === "Gaming Edit"
     ? "270px"
-    : "100%",
+    : "270%",
 width:
   item.title === "Business Promo Edit"
     ? "260px"
-    : "140%",
+    : "260%",
 height:
   item.title === "Business Promo Edit"
     ? "260px"
