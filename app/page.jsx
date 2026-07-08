@@ -83,24 +83,17 @@ export default function Page() {
   src={item.video}
   controls
   style={{
-    width:
+  width:
   item.title === "Football / TikTok Style Edits" ||
   item.title === "Gaming Edit"
-    ? "200px"
+    ? "230px"
     : "100%",
-width:
-  item.title === "Business Promo Edit"
-    ? "300px"
-    : "140%",
-height:
-  item.title === "Business Promo Edit"
-    ? "250px"
-    : "140px",
+
 height:
   item.title === "Football / TikTok Style Edits" ||
   item.title === "Gaming Edit"
     ? "230px"
-    : "100px",
+    : "140px",
     objectFit: "cover",
   borderRadius: "18px",
   display: "block",
