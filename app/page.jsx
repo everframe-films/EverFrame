@@ -151,7 +151,7 @@ height:
           <p><b>Instagram:</b> @everframe.films</p>
           <p><b>Email:</b> everframefilms@gmail.com</p>
           <p><b>Services:</b> Reels/Tiktok Edits · Videos · Thumbnails · Brand Promo Growth</p>
-        </div>ms
+        </div>
       </section>
     </main>
   );
